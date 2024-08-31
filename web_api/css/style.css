@@ -23,6 +23,7 @@ body {
 h1, h2 {
     color: #ffffff;
     margin-bottom: 20px;
+    font-size: 2rem; /* Slightly increase heading font size */
 }
 
 /* Form styles */
@@ -36,29 +37,30 @@ form {
 
 label {
     color: #e0e0e0;
-    font-size: 16px;
+    font-size: 18px; /* Increased label font size */
     margin-bottom: 10px;
     display: block;
 }
 
 input[type="text"] {
     width: 100%;
-    padding: 10px;
+    padding: 12px; /* Increase padding for larger input */
     margin-bottom: 10px;
     border: 1px solid #333;
     border-radius: 4px;
     background-color: #282828;
     color: #e0e0e0;
+    font-size: 18px; /* Increased input font size */
 }
 
 button {
     background-color: #007bff;
     border: none;
     color: #ffffff;
-    padding: 10px 20px;
+    padding: 12px 24px; /* Slightly larger padding */
     border-radius: 4px;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 18px; /* Increased button font size */
 }
 
 button:hover {
@@ -68,10 +70,11 @@ button:hover {
 /* Output message styles */
 pre {
     background-color: #1f1f1f;
-    padding: 20px;
+    padding: 24px; /* Increased padding for more space */
     border-radius: 8px;
     overflow: hidden; /* Hides horizontal overflow */
     font-family: monospace;
+    font-size: 18px; /* Slightly larger font size for preformatted text */
     margin: 0 200px; /* Adds 200px margin on both sides */
     word-wrap: break-word; /* Ensures long words wrap correctly */
     white-space: pre-wrap; /* Preserves whitespace but allows wrapping */
