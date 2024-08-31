@@ -32,6 +32,7 @@ if (!empty($question)) {
     if ($output) {
         echo "<pre id='ai-output' style='color:green;'>$output</pre>";
         echo "<button id='copy-btn'>Copy to Clipboard</button>";
+        echo "<button id='read-btn'>Read Aloud</button>";
     } else {
         echo "<pre style='color:red;'>Error: No response from the Python script.</pre>";
     }
@@ -47,7 +48,13 @@ if (!empty($question)) {
         <button type="submit">Ask</button>
     </form>
 
+    <!-- Status div to show messages -->
+    <div id="status" style="margin-top: 20px; color: #fff;"></div>
+
 <script>
+// JavaScript to update status div instead of showing alerts
+const statusDiv=document.getElementById('status');
+
 // JavaScript to copy the AI output to clipboard
 document.getElementById('copy-btn')?.addEventListener('click', function() {
     const outputText=document.getElementById('ai-output').innerText;
@@ -64,10 +71,39 @@ document.getElementById('copy-btn')?.addEventListener('click', function() {
     // Remove the temporary textarea
     document.body.removeChild(tempTextArea);
 
-  //  alert('AI Output copied to clipboard!');
+    // Update status div
+    statusDiv.textContent='AI Output copied to clipboard!';
+    statusDiv.style.color='green';
+});
+
+// JavaScript to read the AI output aloud using SpeechSynthesis API
+document.getElementById('read-btn')?.addEventListener('click', function() {
+    const outputText=document.getElementById('ai-output').innerText;
+
+    if (outputText) {
+        // Create a new speech synthesis utterance
+        const utterance=new SpeechSynthesisUtterance(outputText);
+
+        // Optional: Customize the voice, rate, pitch, and volume
+        utterance.rate=1;   // Speed of the voice
+        utterance.pitch=1;  // Pitch of the voice
+        utterance.volume=1; // Volume of the voice
+
+        // Speak the output text
+        window.speechSynthesis.speak(utterance);
+
+        // Update status div
+        statusDiv.textContent='Reading AI Output aloud...';
+        statusDiv.style.color='green';
+    } else {
+        // Update status div if no output
+        statusDiv.textContent='No AI Output to read.';
+        statusDiv.style.color='red';
+    }
 });
 </script>
 
 </center>
 </body>
 </html>
+
