@@ -75,14 +75,17 @@
             }
         }
 
+
         // Add event listener to the button
         document.getElementById('generate-btn').addEventListener('click', generateAndPlay);
 
         // Add event listener to the input field for Enter key
         document.getElementById('word').addEventListener('keydown', function(event) {
             if (event.key === 'Enter') {
+
                 event.preventDefault(); // Prevent form submission
                 generateAndPlay();
+                document.getElementById('word').value='';
             }
         });
     </script>
