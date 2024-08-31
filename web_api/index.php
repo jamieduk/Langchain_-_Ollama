@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+<center>
     <h1>Ask AI a Question</h1>
     <form method="get" action="process.php">
         <label for="question">Your Question:</label>
@@ -17,7 +18,7 @@
     <?php
     // Include the process.php script here
     // You can include or place the process.php code in this file as well
-    include 'process.php';
+   // include 'process.php';
     ?>
 </body>
 </html>

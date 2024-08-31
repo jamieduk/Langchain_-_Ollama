@@ -35,7 +35,7 @@ if (!empty($question)) {
         echo "<pre style='color:red;'>Error: No response from the Python script.</pre>";
     }
 } else {
-    echo "<pre style='color:red;'>Error: No question provided.</pre>";
+    echo "<pre style='color:red;'>Ask The AI A Question!</pre>";
 }
 
 ?>

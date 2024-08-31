@@ -12,7 +12,7 @@ init()
 # Define the prompt template
 template="""Question: {question}
 
-Answer: Let's think step by step."""
+Answer: Let's think step by step if direct qustion then give direct answer."""
 
 prompt=ChatPromptTemplate.from_template(template)
 
