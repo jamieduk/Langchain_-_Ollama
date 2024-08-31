@@ -64,7 +64,60 @@ or
 python main.py
 
 
+python main.py
+Ask a question (or type 'exit' to quit): What is LangChain?
+Response retrieved from cache! Time taken: 0.000002 seconds
+LangChain is a machine learning algorithm that was developed to perform contextual word association between two or more languages using natural language processing techniques and statistical data analysis. In other words, it can identify the most common words in one language that are commonly used in another language, which in turn can be utilized for translation or communication purposes between them.
+Ask a question (or type 'exit' to quit): What is time travel    
+LLM response time: 45.639488 seconds
+Time travel refers to the ability for humans to go back in time or to change the course of their history, altering the timeline or past events. This could be done through a variety of means, such as using time machines or teleportation technologies, but ultimately, it requires a significant amount of knowledge and skill to achieve.
 
+In terms of understanding what's involved in time travel, let's start by examining the basic principles that underlie the concept:
+
+1. Awareness of Time
+- To use a time machine or teleportation device, one would need to be aware of their location and time period in which they are located. They must know when they are transported to the future or past.
+
+2. Memory
+- By using time travel, one can manipulate the timeline by changing historical events or altering people's memories. This requires that they understand what happened beforehand, so they can manipulate it accordingly.
+
+3. Understanding History
+- To successfully use time travel, one must have a thorough understanding of the history and society that they want to change. They must understand how the changes they want to make will impact the world around them.
+
+4. Knowledge of Technology
+- Time travel requires advanced technology, such as advanced computers or specialized teleportation devices. These require specialized knowledge and skills.
+
+5. Expertise in Human Psychology
+- Time travel requires knowledge about human psychology and emotions. By manipulating human feelings and perceptions, one can influence how people react to their surroundings and make changes accordingly.
+
+In summary, it takes a lot of knowledge, experience, and expertise to use time travel as an effective tool for altering history or changing the course of events. It requires a deep understanding of human psychology, the ability to manipulate memories, the power of advanced technology, and a strong sense of purpose and motivation to accomplish one's goals.
+Ask a question (or type 'exit' to quit): What is time travel
+Response retrieved from cache! Time taken: 0.000002 seconds
+Time travel refers to the ability for humans to go back in time or to change the course of their history, altering the timeline or past events. This could be done through a variety of means, such as using time machines or teleportation technologies, but ultimately, it requires a significant amount of knowledge and skill to achieve.
+
+In terms of understanding what's involved in time travel, let's start by examining the basic principles that underlie the concept:
+
+1. Awareness of Time
+- To use a time machine or teleportation device, one would need to be aware of their location and time period in which they are located. They must know when they are transported to the future or past.
+
+2. Memory
+- By using time travel, one can manipulate the timeline by changing historical events or altering people's memories. This requires that they understand what happened beforehand, so they can manipulate it accordingly.
+
+3. Understanding History
+- To successfully use time travel, one must have a thorough understanding of the history and society that they want to change. They must understand how the changes they want to make will impact the world around them.
+
+4. Knowledge of Technology
+- Time travel requires advanced technology, such as advanced computers or specialized teleportation devices. These require specialized knowledge and skills.
+
+5. Expertise in Human Psychology
+- Time travel requires knowledge about human psychology and emotions. By manipulating human feelings and perceptions, one can influence how people react to their surroundings and make changes accordingly.
+
+In summary, it takes a lot of knowledge, experience, and expertise to use time travel as an effective tool for altering history or changing the course of events. It requires a deep understanding of human psychology, the ability to manipulate memories, the power of advanced technology, and a strong sense of purpose and motivation to accomplish one's goals.
+Ask a question (or type 'exit' to quit): 
+
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Multi-modal
 Ollama has support for multi-modal LLMs, such as bakllava and llava.
 
