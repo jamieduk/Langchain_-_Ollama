@@ -1,6 +1,6 @@
 Langchain & Ollama By J~Net 2024
 
-
+https://github.com/jamieduk/Langchain_-_Ollama
 https://python.langchain.com/v0.2/docs/integrations/llms/ollama
 
 LangChain 0.2 is out! Leave feedback on the v0.2 docs here. You can view the v0.1 docs here.
