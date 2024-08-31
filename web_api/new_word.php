@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Word Audio Generator</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="../../images/favicon.ico" type="image/x-icon" class="trash">
 </head>
 <body>
 <center>
@@ -26,6 +27,10 @@
 
                 // Clear previous status message
                 statusDiv.textContent='Generating audio...';
+
+                // Reset previous event handlers
+                audioPlayer.oncanplaythrough=null;
+                audioPlayer.onerror=null;
 
                 // Fetch the audio generation URL
                 fetch(generateAudioUrl)
