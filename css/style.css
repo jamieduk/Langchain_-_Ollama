@@ -1,0 +1,95 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    color: #e0e0e0;
+    background-color: #121212;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Center align content */
+.center {
+    text-align: center;
+}
+
+/* Heading styles */
+h1, h2 {
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+/* Form styles */
+form {
+    background-color: #1f1f1f;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    display: inline-block;
+}
+
+label {
+    color: #e0e0e0;
+    font-size: 16px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #333;
+    border-radius: 4px;
+    background-color: #282828;
+    color: #e0e0e0;
+}
+
+button {
+    background-color: #007bff;
+    border: none;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Output message styles */
+pre {
+    background-color: #1f1f1f;
+    padding: 20px;
+    border-radius: 8px;
+    overflow: hidden; /* Hides horizontal overflow */
+    font-family: monospace;
+    margin: 0 200px; /* Adds 200px margin on both sides */
+    word-wrap: break-word; /* Ensures long words wrap correctly */
+    white-space: pre-wrap; /* Preserves whitespace but allows wrapping */
+    max-width: calc(100% - 400px); /* Adjusts the width to accommodate the margins */
+}
+
+/* Optional: Ensure code inside pre inherits color */
+pre code {
+    color: #e0e0e0;
+}
+
+/* Style specific to error messages */
+pre.error {
+    color: #ff4d4d;
+}
+
+/* Style specific to success messages */
+pre.success {
+    color: #4dff4d;
+}
+
