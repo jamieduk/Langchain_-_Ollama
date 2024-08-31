@@ -1,0 +1,13 @@
+
+sudo chown -R www-data:www-data /var/www/html/apps/ai/venv
+sudo chmod +x /var/www/html/apps/ai/venv/bin/python
+sudo chown -R www-data:www-data /var/www/html/apps/ai/venv
+sudo chown www-data:www-data /var/www/html/apps/ai/api.py
+www-data ALL=(ALL) NOPASSWD: /var/www/html/apps/ai/venv/bin/python
+
+
+copy the venv folder and add sudoers entry like above
+
+
+
+http://192.168.1.205/apps/ai/process.php?question=what+is+2+plus+2
