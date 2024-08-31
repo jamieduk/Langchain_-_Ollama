@@ -1,6 +1,6 @@
 #
 # (c) J~Net 2024
-#
+# https://github.com/jamieduk/Langchain_-_Ollama
 #
 # python main.py
 #
