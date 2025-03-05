@@ -145,3 +145,6 @@ markdown
 - **Feedback Section**: Encourages contributions and feedback.
 
 This Markdown file should work well as documentation for your repository!
+
+#AI #GITHUB #OLLAMA #PHP https://app.readytensor.ai/publications/langchain-ollama-pncLSN8wWvKC
+
